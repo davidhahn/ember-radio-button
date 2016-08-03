@@ -4,6 +4,7 @@ const { computed } = Ember;
 
 export default Ember.Component.extend({
   tagName: '',
+  radioId: 'foo',
   // value - passed in, required, the value for this radio button
   // groupValue - passed in, required, the currently selected value
 
